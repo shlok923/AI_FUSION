@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Icons */
+
+.bg-image .bg-image-anchor .icon {
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+/* NavBar */
+
+/* Navbar position and color */
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 5px 40px;
+    box-sizing: border-box;
+    background: #00000080;
+}
+
+/* NavBar logo position, font and color */
+nav .logo {
+    padding: 22px 36px 22px 0;
+    height: 80px;
+    float: left;
+    font-family: "Exo", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* NavBar links position */
+.navbar-elements {
+    width: 100%;
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* NavBar anchor links font, color, and positioning */
+nav ul li a {
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition-duration: 0.4s;
+}
+
+/* NavBar links hover declarations */
+nav ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+    background: none;
+    opacity: 0.6;
+}
+
+/* INDEX.html Background Image */
+
+.bg-image {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/pexels-homepage-bgimg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Bg image upper paragraph */
+.bg-image-text-upper {
+    text-align: center;
+    padding-top: 110px;
+}
+
+/* Color, font and positioning */
+.bg-image-text-upper p {
+    color: #020202a1;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+}
+
+/* Bg image heading */
+.bg-image-heading {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Font, color and spacing */
+.bg-image-heading h2 {
+    font-family: "Exo", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+/* Bg image "Request Delivery" button */
+.bg-image .bg-image-anchor {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    bottom: 20%;
+    text-align: center;
+}
+
+/* Positioning, color, font, and border */
+.bg-image-anchor-text {
+    padding: 7px 11px;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Exo", sans-serif;
+    font-size: 15px;
+    border: 1.5px solid #fff;
+    border-radius: 10px;
+    word-spacing: 2px;
+    transition-duration: 0.4s;
+}
+
+/* Request Delivery hover settings */
+.bg-image-anchor-text:hover {
+    color: #fff;
+    opacity: 0.6;
+}
+
+/* Our Locations Section */
+.location-heading-main {
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    word-spacing: 0.3em;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding: 20px 0 50px 0;
+}
+
+/* Position of Images */
+.location-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+div .ourloc-img {
+    width: 360px;
+    height: 250px;
+}
+
+/* Headings */
+.location-headings {
+    width: 100%;
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    letter-spacing: 1.5px;
+    margin: 12px 0 26px 0;
+}
+
+/* Paragraphs under Images - positioning and font */
+.location-parapgraph {
+    width: 100%;
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.7px;
+    margin-bottom: 54px;
+}
+
+/* ABOUT.html Hero Image */
+
+.about-bg-image {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/pexels-about-bgimg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Background Image heading - position, font, and color */
+.about-bg-image h2 {
+    position: absolute;
+    top: 34%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+/* Content heading - positioning and font */
+.about-heading-box h2 {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    word-spacing: 0.3em;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding: 30px 0 5% 0;
+}
+
+/* Content parapgraphs */
+.all-paragraphs {
+    width: 100%;
+    margin: auto;
+}
+
+/* Paragraphs - position, font, and color */
+.all-paragraphs .paragraph {
+    width: 50%;
+    margin: auto;
+    line-height: 22px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-family: "Exo", sans-serif;
+    color: #707473e2;
+    font-weight: 500;
+}
+
+/* CONTACT.html Background Image */
+
+.contact-bg-image {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/pexels-contactbgimg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Background Image heading */
+.contact-bg-image-heading {
+    text-align: center;
+    padding-top: 110px;
+}
+
+/* Font, spacing, and color */
+.contact-bg-image-heading h2 {
+    font-family: "Exo", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+/* Paragraph upper */
+.contact-bg-image-parapgraph-upper {
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* Color and font */
+.contact-bg-image-parapgraph-upper p {
+    color: #fff;
+    margin-bottom: 2px;
+    text-transform: capitalize;
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+}
+
+/* Paragraph lower */
+.contact-bg-image-parapgraph-lower {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Color and font */
+.contact-bg-image-parapgraph-lower p {
+    color: #fff;
+    margin-bottom: 2px;
+    text-transform: lowercase;
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Form section */
+.form-section {
+    padding: 32px 0 52px 0;
+}
+
+.form-heading {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 40px 0;
+    font-family: "Exo", sans-serif;
+    text-transform: capitalize;
+}
+
+/* Form */
+.form {
+    width: 45%;
+    margin: auto;
+    padding: 32px;
+    border: 1.5px solid #000000;
+    border-radius: 12px;
+}
+
+/* Changes font of labels */
+.form label {
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+}
+
+.termsAndConditions {
+    font-weight: 500;
+    font-size: smaller;
+}
+
+/* Submit button alignment */
+.btn {
+    text-align: center;
+}
+
+/* Confirmation Page */
+
+/* NavBar background color */
+.confirmation-nav {
+    background: #000000;
+}
+
+/* Thank you message icon - position and font */
+.thankyou-msg i {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    font-size: 35px;
+}
+
+/* Heading - position and font */
+.thankyou-msg h1 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    font-family: "Exo", sans-serif;
+    font-size: 45px;
+}
+
+/* Paragraph - position and font */
+.thankyou-msg p {
+    width: 100%;
+    margin: auto;
+    padding: 16px;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    font-family: "Exo", sans-serif;
+}
+
+/* Footer - confirmation.html only */
+.confirmation-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Footer */
+
+/* Footer - color and position */
+footer {
+    background-color: #000000;
+    color: #fff;
+    min-height: 120px;
+    margin: 0;
+    padding-bottom: 18px;
+}
+
+/* Headings - position, font, and border */
+.general-sub {
+    margin: 16px 0 12px 12px;
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+    border-bottom: 1.2px solid #fff;
+}
+
+/* Locations - font and margin of cities */
+footer .footer-cities {
+    margin-left: 12px;
+    font-family: "Exo", sans-serif;
+    font-size: 14px;
+}
+
+/* Contact font and margin */
+footer .footer-contact-details {
+    margin-left: 12px;
+    font-family: "Exo", sans-serif;
+    font-size: 14px;
+}
+
+/* Social Links */
+
+/* Position */
+footer .social-links {
+    margin: 16px 12px 12px 0;
+    float: right;
+}
+
+/* Transition for icons */
+footer .social-links i {
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+/* Media Queries - mobile */
+
+@media only screen and (max-width: 480px) {
+
+    /*-------------NavBar */
+    
+    .logo {
+        display: none;
+    }
+
+    /* Adjusts padding and margin */
+
+    nav {
+        width: 100%;
+        margin: auto;
+        padding: 0 14px 0 14px;
+    }
+
+    /* Changes position of anchor links */
+
+    nav ul li a {
+        height: auto;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    /* Centers nav links */
+
+    .navbar-elements {
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    /* Index.html */
+
+    .bg-image {
+        height: 70vh;
+    }
+
+    .bg-image-heading h2 {
+        font-size: 20px;
+        font-weight: 600;
+        word-spacing: normal;
+    }
+
+    .bg-image .bg-image-anchor {
+        position: absolute;
+        bottom: 45%;
+    }
+
+    /* Our Location Images */
+
+    .ourloc-img {
+        display: none;
+    }
+
+    /* About.html */
+
+    .about-bg-image {
+        height: 70vh;
+    }
+
+    /* Changes position of the bg image heading */
+
+    .about-bg-image h2 {
+        text-align: center;
+        position: absolute;
+        top: 25%;
+        width: 100%;
+        word-spacing: 4px;
+        font-size: 21px;
+    }
+
+    /* Changes position of the main content heading */
+
+    .about-heading-box h2 {
+        width: 75%;
+        margin: auto;
+        font-size: 21px;
+        padding-top: 42px;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+    }
+
+    /* Reduces width to fit on mobile */
+
+    .all-paragraphs .paragraph {
+        width: 75%;
+    }
+
+    /* Contact.html */
+
+    .contact-bg-image {
+        height: 70vh;
+    }
+
+    .contact-bg-image-parapgraph-lower {
+        position: absolute;
+        bottom: 40%;
+    }
+
+    .form-heading {
+        width: 90%;
+    }
+
+    .form {
+        width: 90%;
+    }
+
+    /*-------------Footer */
+
+    footer {
+        height: fit-content;
+    }
+
+    /* Hides Locations column */
+
+    .footer-loc {
+        display: none;
+    }
+}
+
+/* Media Queries - Tablet */
+
+@media only screen and (max-width: 990px) and (min-width: 480px) {
+
+    /* Index.html */
+
+    .bg-image {
+        height: 90vh;
+    }
+
+    /* Hides "Our Locations" images */
+
+    .ourloc-img {
+        display: none;
+    }
+
+    /* navbar */
+
+    .navbar-elements {
+        justify-content: left;
+        width: 100%;
+        margin: auto;
+    }
+
+    /* About.html */
+
+    .about-bg-image {
+        height: 90vh;
+    }
+
+    .about-bg-image h2 {
+        padding-top: 45%;
+    }
+
+    /* Contact.html */
+
+    .contact-bg-image {
+        height: 90vh;
+    }
+
+    .form-heading {
+        width: 60%;
+    }
+
+    .form {
+        width: 60%;
+    }
+
+    /* Footer */
+
+    .footer-loc {
+        display: none;
+    }
+
+    footer .col-sm-4 {
+        width: 100%;
+    }
+}
