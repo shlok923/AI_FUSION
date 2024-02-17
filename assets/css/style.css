@@ -74,7 +74,7 @@ nav ul li a:hover {
 .bg-image {
     width: 100%;
     height: 100vh;
-    background: url("../images/pexels-homepage-bgimg.jpg");
+    background: url("../images/drone.png");
     background-size: cover;
     background-position: center;
 }
@@ -188,7 +188,7 @@ div .ourloc-img {
 .about-bg-image {
     width: 100%;
     height: 100vh;
-    background: url("../images/pexels-about-bgimg.jpg");
+    background: url("../images/drone.png");
     background-size: cover;
     background-position: center;
 }
@@ -243,7 +243,7 @@ div .ourloc-img {
 .contact-bg-image {
     width: 100%;
     height: 100vh;
-    background: url("../images/pexels-contactbgimg.jpg");
+    background: url("../images/drone.png");
     background-size: cover;
     background-position: center;
 }
